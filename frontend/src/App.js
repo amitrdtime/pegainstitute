@@ -39,6 +39,7 @@ function App() {
               <Route index  element={<List/>}></Route>
               <Route path=":inquiryId" element={<SingleEdit/>}></Route>
               <Route path="new" element={<New/>}></Route>
+              
             </Route>
           </Route>
         </Routes>
